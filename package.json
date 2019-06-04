@@ -26,6 +26,7 @@
     "express": "^4.17.0",
     "if-env": "^1.0.4",
     "mongoose": "^5.5.10",
+    "path": "^0.12.7",
     "react-geocode": "^0.1.2",
     "react-google-autocomplete": "^1.1.0",
     "react-google-maps": "^9.4.5"
