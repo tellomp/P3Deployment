@@ -46,7 +46,7 @@
 
 ![alt text][pin]
 
-[pin]: https://github.com/tellomp/P3Deployment/blob/master/client/public/pinDrop.1png.png "Drop Pin"
+[pin]: https://github.com/tellomp/P3Deployment/blob/master/client/public/pinDrop.png "Drop Pin"
 
 
 * Using Google autocomplete, the user is able to search for the general area for the intersection. Making it easier to find the dangerous intersection and adding it to the database. 
