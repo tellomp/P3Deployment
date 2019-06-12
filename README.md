@@ -25,11 +25,15 @@
 
 * We want to use this vital knowledge and build a database with as many as possible dangerous intersections. 
 
+
+![alt text][slider3]
+
+[slider3]: https://github.com/tellomp/P3Deployment/blob/master/client/public/slider3.png "Slider 3"
+
 ### Instructions
 
 * Using mongoDB, the user is able to add a dangerous intersection to the database.
 
-* If the user knows the exact address for the dangerous intersection, the user can input the address and it is added to the database.
 
 
 ![alt text][logo]
@@ -37,11 +41,9 @@
 [logo]: https://github.com/tellomp/P3Deployment/blob/master/client/public/intersectionInput.png "Add Exact Address"
 
 
+* If the user knows the exact address for the dangerous intersection, the user can input the address and it is added to the database.
+
 * Users can then click on the desired intersection and the user is routed to the details page using axios and the map renders the address using the Google maps API.  
-
-* If the user does not know the exact address, the user is able to drag the pin and drop it on the map.
-
-* Dropping the pin autofills the form section and adds it to the database using mongoDB.
 
 
 ![alt text][pin]
@@ -49,7 +51,9 @@
 [pin]: https://github.com/tellomp/P3Deployment/blob/master/client/public/pinDrop.png "Drop Pin"
 
 
-* Using Google autocomplete, the user is able to search for the general area for the intersection. Making it easier to find the dangerous intersection and adding it to the database. 
+* If the user does not know the exact address, the user is able to drag the pin and drop it on the map.
+
+* Dropping the pin autofills the form section and adds it to the database using mongoDB.
 
 
 
@@ -57,6 +61,8 @@
 
 [finder]: https://github.com/tellomp/P3Deployment/blob/master/client/public/areaFinder.png "Area Finder"
 
+
+* Using Google autocomplete, the user is able to search for the general area for the intersection. Making it easier to find the dangerous intersection and adding it to the database. 
 
 * All users are then able to view all dangerous intersections added to the dangerous intersections database. 
 
